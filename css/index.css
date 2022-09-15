@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Open+Sans:wght@300&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&display=swap');
+
+body {
+    border-style: 5px solid black;
+    }
+    
+    #all-main-items {
+        border-color: black;
+        border-style: 2px solid;
+    }
+    
+    
+    header {
+        /*The header will have a picture on the left-side and my name on the right side
+        I will try flexbox for this */
+        display: flex;
+        color: #1a090D;
+        background-color:  #5296A5;
+        /* max-width: 50%; */
+        align-items: center;
+        box-shadow: 10px 5px 5px 0px;
+    }
+    
+    #wdd-header {
+        align-items: center;
+        color: #1a090D;
+    }
+
+    #name-text {
+        text-align: justify;
+        padding: 10px;
+        font-family: 'Satisfy', cursive;
+    }
+    
+    #some-lessons-thingy {
+        margin-top: 2px;
+        color: #1a090D;
+        font-family: 'Brygada 1918', serif;
+    }
+
+
+
+    #assignment-list {
+        border-style: solid none;
+        max-width: 50%;
+        margin-top: 2px;
+    }
+
+    footer {
+      background-color: #5296A5;  
+      border-radius: 5px;
+      box-shadow: 1px 1px 1px 1px;
+    }
+
+
+
+    /*
+    Sample Color Palette
+    #2f4b26
+    #a1ef8b
+    #1a090D
+    #5296A5
+    #82DDFO
+    */
+
+    /* Sample Text Palette:
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Open+Sans:wght@300&family=Satisfy&display=swap');
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Brygada 1918', serif; (The italic one)
+    */
