@@ -1,30 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Open+Sans:wght@300&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&display=swap');
 
+
+
+/* #all-main-items {
+
+} */
+
 body {
     border-style: 5px solid black;
+    max-width: 50%;
     }
     
-    #all-main-items {
-        border-color: black;
-        border-style: 2px solid;
-    }
+
     
     
-    header {
-        /*The header will have a picture on the left-side and my name on the right side
-        I will try flexbox for this */
-        display: flex;
-        color: #1a090D;
-        background-color:  #5296A5;
-        /* max-width: 50%; */
-        align-items: center;
-        box-shadow: 10px 5px 5px 0px;
+header {
+    /*The header will have a picture on the left-side and my name on the right side
+    I will try flexbox for this */
+    display: flex;
+    color: #1a090D;
+    background-color:  #5296A5;
+    /* max-width: 50%; */
+    align-items: center;
+    /* box-shadow: 10px 5px 5px 10px; */
+    box-shadow: 10px 5px;
     }
     
     #wdd-header {
         align-items: center;
         color: #1a090D;
+    }
+
+    img {
+        padding: 15px;
     }
 
     #name-text {
@@ -43,14 +52,27 @@ body {
 
     #assignment-list {
         border-style: solid none;
-        max-width: 50%;
-        margin-top: 2px;
+        /* max-width: 50%; */
+        padding: 2px;
     }
 
     footer {
       background-color: #5296A5;  
       border-radius: 5px;
-      box-shadow: 1px 1px 1px 1px;
+      /* box-shadow: 1px 1px 1px 1px; */
+      box-shadow: 10px 5px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    #licensing-section {
+        color: #1a090D;
+        font-size: 15px;
+    }
+
+    #last-update {
+        color: #DFCC74;
+        font-size: 10px;
     }
 
 
@@ -59,9 +81,9 @@ body {
     Sample Color Palette
     #2f4b26
     #a1ef8b
-    #1a090D
-    #5296A5
-    #82DDFO
+    #1a090D - Black (Xiketic)
+    #5296A5 - Blue Munsell
+    #DFCC74 - Arylide Yellow 
     */
 
     /* Sample Text Palette:
