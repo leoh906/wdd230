@@ -4,15 +4,15 @@
 
 
 /* #all-main-items {
-
 } */
 
 body {
     border-style: 5px solid black;
     max-width: 50%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     }
-    
-
     
     
 header {
