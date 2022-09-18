@@ -2,12 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital@1&display=swap');
 
 
-
-/* #all-main-items {
-} */
-
 body {
-    border-style: 5px solid black;
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -21,10 +16,8 @@ header {
     display: flex;
     color: #1a090D;
     background-color:  #5296A5;
-    /* max-width: 50%; */
     align-items: center;
-    /* box-shadow: 10px 5px 5px 10px; */
-    box-shadow: 10px 5px;
+    box-shadow: 10px 5px 10px;
     }
     
     #wdd-header {
@@ -57,6 +50,7 @@ header {
         margin-top: 2px;
         color: #1a090D;
         font-family: 'Brygada 1918', serif;
+        padding-bottom: 5px;
     }
 
 
@@ -70,8 +64,7 @@ header {
     footer {
       background-color: #5296A5;  
       border-radius: 5px;
-      /* box-shadow: 1px 1px 1px 1px; */
-      box-shadow: 10px 5px;
+      box-shadow: 10px 5px 10px;
       padding: 15px;
       text-align: center;
     }
