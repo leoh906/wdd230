@@ -1,0 +1,51 @@
+/* 
+Color Palette:
+#30BCED - Cyan Process
+#FFFAFF - Ghost White
+#525252 - Davys Grey
+#03045E - Midnight Blue
+#75E4B3 - Medium Aquamarine
+
+Optional:
+#A1C084 - Olivine (greenish)
+
+Fonts:
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+CSS rules to specify families
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+#student_information {
+    text-align: center;
+}
+
+main {
+    display: grid;
+}
+
+.topic_outlines {
+    /* background-color: #525252; */
+    background-color: white;
+}
+
+.concept_description {
+    background-color: #A1C084;
+}
+
+#student_information, footer {
+    background-color: #03045e;
+    color: #FFFAFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    
+}
+
+
