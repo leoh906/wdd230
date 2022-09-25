@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This file shows a list of three important design principles
     I studied">
-    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/medium.css">
     <title>Design Principles</title>
 </head>
 <body>
@@ -21,46 +23,54 @@
     </nav>
     </header>
     <main>
-        <!-- Three slides-->
-    <div class="topic_outlines">
-        <h1 class="concept_description">Visual Hierarchy</h1>
-    <div class="site_descriptions">
-        <h2 class="site_headings">BBC News</h2>
-        <a href="https://www.bbc.com/news" class="all_links">bbc.com/news</a>
-        <div class="inner_information">
-        <img src="images/bbcnews_vishierarchy.png" class="all_images" alt="bbc news homepage">
-        <p class="all_descriptions">
-        Visual Hierarchy is the concept of using changes in font sizes to show a hierarichal level of information. 
-        My research led me to observing the BBC News Homepage. In this snippet we see that a hierarchy is established. In the navigation bar
-        the word news clearly defines the main point of the website. The links are significantly smaller to show that they
-        might not be as important visually. In addition, there is a certain news article that has a bigger font size and a larger
-        picture to establish a precedence for the more popular article.
-        </p>
+        <!-- This section contains the three slides I will present on-->
+    <div id="topic_outline_1">
+        <h2 class="concept_heading">Visual Hierarchy</h2>
+        <h3 class="site_name">BBC News</h3>
+        <a class="site_link" href="https://www.bbc.com/news">bbc.com/news</a>
+        <div class="photo_content">
+            <img src="images/bbcnews_vishierarchy.png" alt="BBC News Homepage">
+            <p class="paragraph_content">
+                The BBC's homepage shows visual hierarchy by changing the sizes of
+                its different fonts. In the example picture we can see a strong difference between the 
+                main article the site wants to show and the smaller articles. The smaller articles take up less
+                space on the page. In addition there is contrast between the heading "news" and the smaller links
+                leading to subtopics of the news page.
+            </p>
+        </div><!--end of photo content-->
     </div>
+    <div id="topic_outline_2">
+        <h2 class="concept_heading">Fitt's Law</h2>
+        <h3 class="site_name">Church of Jesus Christ Website</h3>
+        <a href="https://www.churchofjesuschrist.org/?lang=eng">churchofjesuschrist.org</a>
+        <div class="photo_content">
+            <img src="images/fittslaw_church.png" alt="Church Website">
+            <p class="paragraph_content">
+                On the homepage, there is a layer of pictures that are tightly packed together. 
+                Fitt's law argues that items packed closer together makes it easier for the user to access
+                different elements. This tight grouping of pictures helps the user see and click on pictures
+                with less effort engaged in scrolling.
+            </p>
+        </div><!--end of photo content-->
+
     </div>
-    </div>
-    <div class="topic_outlines">
-        <h2 class="concept_description">Fitt's Law</h2>
-        <div class="site_descriptions">
-        <h1 class="site_headings"></h1>
-        <a href="#" class="all_links"></a>
-        <img src="images/fittslaw_iglogin.png" class="all_images" alt="Instagram Login">
-        <p class="all_descriptions"></p>
+    <div id="topic_outline_3">
+        <h2 class="concept_heading">Repetition</h2>
+        <h3 class="site_name">Wikipedia</h3>
+        <a class="site_link" href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Wikipedia.com</a>
+        <div class="photo_content">
+            <img src="images/wikipedia_repetition.png" alt="Wikipedia example page">
+            <p class="paragraph_content">
+                Wikipedia's pages are good examples of repetition. Although it's layout has rather bland colors and nearly identical layouts on all sites, 
+                this becomes an advantage for users who want to quickly scroll through wikipedia articles. The use of repetition
+                makes it faster for people to read through wikipedia's numerous articles because they become familiar with the common layout quicker.
+            </p>
+        </div><!--end of photo content-->
         </div>
-    </div>
-    <div class="topic_outlines">
-        <h2 class="concept_description">P.A.R.C Repetition</h2>
-        <div class="site_descriptions">
-        <h1 class="site_headings"></h1>
-        <a href="#" class="all_links"></a>
-        <img src="images/wikipedia_repetition.png" class="all_images" alt="Wikipedia Example">
-        <p class="all_descriptions"></p>
-        </div>
-    </div>
     </main>
     <footer>
         <p>&copy; 2022 | Leo Harrison | <span id="update_information"></span></p>
     </footer>
-    <script src="/js/update.js"></script>
+    <script src="js/update.js"></script>
 </body>
 </html>

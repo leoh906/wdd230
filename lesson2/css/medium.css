@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Source+Sans+Pro:wght@300&display=swap');
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    #student_information, footer {
+        background-color: #03045e;
+        color: #FFFAFF;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    
+    #topic_outline_1 {
+        background-color: #eef0f2;
+        text-align: center;
+        border: 2px solid;
+        border-color: black;
+        margin: 25px;
+        grid-row: 1/2;
+    }
+
+    #topic_outline_2 {
+        background-color: #eef0f2;
+        text-align: center;
+        border: 2px solid;
+        border-color: black;
+        margin: 25px;
+    }
+    
+    #topic_outline_3 {
+        background-color: #eef0f2;
+        text-align: center;
+        border: 2px solid;
+        border-color: black;
+        margin:25px;
+        grid-column: 1 / span 2;
+    }
+    .paragraph_content {
+        padding: 5%;
+        text-align: justify;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+    }
+}
