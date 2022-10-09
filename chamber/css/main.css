@@ -1,0 +1,21 @@
+main div {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 2px;
+    background-color: lightgray;
+}
+
+nav {
+    display: flex;
+}
+
+
+img {
+    height: 25%;
+    width: 25%;
+}
+
+#spotlights_section {
+    display: grid;
+}
