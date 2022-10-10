@@ -1,21 +1,72 @@
-main div {
-    border: 1px;
-    border-color: black;
-    border-style: solid;
-    margin: 2px;
-    background-color: lightgray;
+@media screen and (max-width: 729px) {
+    /* Section for the Homepage */
+body {
+    padding: 0;
+    margin: 0;
+}
+    /*Section for the header */
+header {
+   display: flex;
+   align-items: center;
+   vertical-align: text-top;
+   margin: 10px;
+   justify-content: space-evenly;
+   background-color: #586f7c;
 }
 
-nav {
+#menu_title {
     display: flex;
+	flex-direction: column;
+    text-align: center;
 }
 
+#menu_title h1 {
+    /* padding: 0px; */
+    margin: 0px;
+}
+
+#menu_title p {
+    /* padding: 0px; */
+    margin: 0px;
+}
+
+
+.social_feed_class {
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    /* padding: 2px; */
+}
+
+#hamburger_menu {
+    padding: 10px;
+    margin: 0px 10px;
+}
 
 img {
-    height: 25%;
-    width: 25%;
+    height: 50px;
+    width: 50px;
+}
+/*------------- Main Section -------------- */
+main div {
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    margin: 5px;
+    background-color: whitesmoke;
+    font-style: italic;
+    padding: 20px;
+    vertical-align: text-top;
+    text-align: left;
 }
 
-#spotlights_section {
-    display: grid;
+/*------------- Footer Section------------- */
+footer{
+text-align: center;
+background-color: #586f7c;
 }
+
+
+}
+
+

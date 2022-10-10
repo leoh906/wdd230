@@ -1,0 +1,78 @@
+@media screen and (min-width: 1023px) {
+        /* Section for the Homepage */
+body {
+    padding: 0;
+    margin: 0;
+}
+    /*Section for the header */
+header {
+   display: flex;
+   align-items: center;
+   vertical-align: text-top;
+   margin: 10px;
+   justify-content: space-evenly;
+   background-color: #586f7c;
+}
+
+#menu_title {
+    display: flex;
+	flex-direction: column;
+    text-align: center;
+    font-size: x-large;
+}
+
+#menu_title h1 {
+    /* padding: 0px; */
+    margin: 0px;
+}
+
+#menu_title p {
+    /* padding: 0px; */
+    margin: 0px;
+}
+
+#soci
+
+
+.social_feed_class {
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    /* padding: 2px; */
+}
+
+
+
+#spotlights_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hamburger_button {
+   font-size: xx-large;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+}
+/*------------- Main Section -------------- */
+main div {
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    margin: 5px;
+    background-color: whitesmoke;
+    font-style: italic;
+    padding: 20px;
+    vertical-align: text-top;
+    text-align: left;
+}
+
+/*------------- Footer Section------------- */
+footer{
+text-align: center;
+background-color: #586f7c;
+}
+
+}

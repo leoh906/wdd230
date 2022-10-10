@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
     <header>
         <!-- Add hamburger menu-->
-        <nav>
-            <div id="menu_logo">
-                <img src="images/site_logo.png" alt="Payson Chamber Logo">
-            </div> 
-            <div id="menu_title">
-                <h1>Payson</h1>
-                <p>Chamber of Commerce</p>
-            </div>
-            <div id="hamburger_menu">
-                <button id="hamburger_menu">&#9776;</button>  
-            </div>
-        </nav>
+        <div id="menu_logo">
+            <img src="images/chamber_logo.png" alt="Payson Chamber Logo">
+        </div> <!-- End of the menu_logo-->   
+        <div id="menu_title">
+            <h1>Payson</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <div id="social_feed_icons">
+            <img src="images/facebook_icon.svg" class="social_feed_class" alt="Facebook logo">
+            <img src="images/linkedin_icon.svg" class="social_feed_class" alt="LinkedIn logo">
+        </div>
+        <div id="hamburger_menu">
+            <button id="hamburger_button">&#9776;</button>  
+        </div>
     </header>
     <main>
         <div>Hero with site name and call to action</div>
@@ -33,6 +37,10 @@
             <div>Spotlight 2</div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <p> 2022 &copy; Payson Chamber | Leo Harrison | WDD 230 Project</p> 
+        <p>Last Modification: <span id="js_date"></span></p>
+    </footer>
+    <script src="js/date.js"></script>
 </body>
 </html>

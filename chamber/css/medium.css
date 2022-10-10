@@ -1,0 +1,80 @@
+@media screen and (min-width: 729px) {
+            /* Section for the Homepage */
+    body {
+        padding: 0;
+        margin: 0;
+    }
+        /*Section for the header */
+    header {
+    display: flex;
+    text-align: center;
+    vertical-align: text-top;
+    justify-content: space-between;
+    background-color: #586f7c;
+    }
+
+    #menu_title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: large;
+        /* margin-left: .5rem; */
+    }
+
+    #menu_title h1 {
+        padding: 0px 5px;
+        margin: 0px 25px;
+    }
+
+    #menu_title p {
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    .social_feed_class {
+        width: 48px;
+        height: 48px;
+        padding: 20px;
+    }
+
+    #hamburger_menu {
+        padding: 25px;
+    }
+
+    #hamburger_button {
+        font-size: xx-large;
+     }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+    /*------------- Main Section -------------- */
+    main div {
+        border: 1px;
+        border-color: gray;
+        border-style: solid;
+        margin: 10px;
+        background-color: whitesmoke;
+        font-style: italic;
+        padding: 50px;
+        vertical-align: text-top;
+        text-align: left;
+        display: flex;
+    }
+
+    #spotlights_section {
+    display: flex;
+    }
+
+    #spotlights_section div {
+    padding: 125px;
+    }
+
+/*------------- Footer Section------------- */
+footer {
+    text-align: center;
+    background-color: #586f7c;
+}
+}
