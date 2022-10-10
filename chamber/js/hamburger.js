@@ -1,5 +1,4 @@
 let navElement = document.getElementById('hamburger_button')
-let navMenu = document.getElementById('')
 
 
 navElement.addEventListener('click',toggleMenu);

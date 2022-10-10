@@ -21,6 +21,10 @@ header {
     text-align: center;
 }
 
+#hamburger_menu {
+    padding: 25px;
+}
+
 #hamburger_content {
     display: none;
 }
