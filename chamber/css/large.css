@@ -12,6 +12,7 @@ header {
    margin: 10px;
    justify-content: space-evenly;
    background-color: #586f7c;
+   color: white;
 }
 
 #menu_title {
@@ -31,8 +32,6 @@ header {
     margin: 0px;
 }
 
-#soci
-
 
 .social_feed_class {
     width: 48px;
@@ -50,6 +49,21 @@ header {
 
 #hamburger_button {
    font-size: xx-large;
+}
+
+#hamburger_list {
+    background-color: black;
+    color: white;
+}
+
+#hamburger_list a {
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+#hamburger_list a:visited {
+    text-decoration: none;
+    color: white;
 }
 
 img {
@@ -73,6 +87,8 @@ main div {
 footer{
 text-align: center;
 background-color: #586f7c;
+padding: 10px;
+color: white;
 }
 
 }

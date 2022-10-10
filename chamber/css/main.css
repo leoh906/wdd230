@@ -9,9 +9,10 @@ header {
    display: flex;
    align-items: center;
    vertical-align: text-top;
-   margin: 10px;
    justify-content: space-evenly;
+   padding: 10px;
    background-color: #586f7c;
+   color: white;
 }
 
 #menu_title {
@@ -20,8 +21,27 @@ header {
     text-align: center;
 }
 
+#hamburger_content {
+    display: none;
+}
+
+#hamburger_list {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+}
+
+#hamburger_list a {
+    text-decoration: none;
+}
+
+#hamburger_list a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 #menu_title h1 {
-    /* padding: 0px; */
     margin: 0px;
 }
 
@@ -64,6 +84,8 @@ main div {
 footer{
 text-align: center;
 background-color: #586f7c;
+padding: 10px;
+color: white;
 }
 
 
