@@ -67,10 +67,10 @@ header {
     color: white;
 }
 
-img {
+/* img {
     height: 80px;
     width: 80px;
-}
+} */
 /*------------- Main Section -------------- */
 main div {
     border: 1px;
@@ -84,6 +84,23 @@ main div {
     text-align: left;
 }
 
+#hero_banner {
+    display: grid;
+}
+
+#hero_banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+#upcoming_events {
+    display: block;
+}
+
+#news_release {
+text-align: center;
+display: block;
+}
 /*------------- Footer Section------------- */
 footer{
 text-align: center;
