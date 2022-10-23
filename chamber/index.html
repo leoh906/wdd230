@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
@@ -22,27 +23,27 @@
         <div id="social_feed_icons">
             <img src="images/facebook_icon.svg" class="social_feed_class" alt="Facebook logo">
             <img src="images/linkedin_icon.svg" class="social_feed_class" alt="LinkedIn logo">
-        </div>
-        <div id="hamburger_menu">
-            <button id="hamburger_button">&#9776;</button>  
+        </div> 
         </div>
     </header>
     <nav id="hamburger_content">
         <ul id="hamburger_list">
-            <a href="#">News</a>
-            <a href="#">Events</a>
-            <a href="#">Registration</a>
+            <a href="#">Home</a>
+            <a href="#">Discover</a>
+            <a href="#">Directory</a>
+          <a href="#">Join</a>
+          <a href=#>Contact</a>
         </ul>
     </nav>
     <main>
         <div id="hero_banner">
             <h2>Welcome to Payson!</h2>
-            <img src="images/town_banner.jpg" alt="Payson Main Street">
+            <img src="https://i.imgur.com/TV2zvF0.jpg" alt="Payson Main Street">
         </div>
         <div id="upcoming_events">
             <h2>Ribbon Cutting</h2>
             <ul>
-                <li>The Diamond Shack</li>
+                <li><span class="material-symbols-outlined">diamond</span>The Diamond Shack</li>
                 <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00pm</p>
                 <button id="more_info">more info</button>
             </ul>
@@ -52,22 +53,39 @@
             <h2>News Release</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis debitis nam non sed, est iste minima itaque ad consectetur laudantium inventore, optio animi voluptate dolorum ea repellat sapiente quidem facere.</p>
         </div>
+        <div id="join_us_section">
+            <button type="button">Join Us!</button>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
+          </div>
         <div id="spotlights_section">
             <div id="spotlight_1">
-                <h2>Thankful Transport</h2>
+            <h2>Thankful Transport</h2>
+            <img src="images/moving_company.png">
+            <p>"We get it there for you!"
+            <p>hello@thankfultransport.com</p>
+            <p>+999-9999-9999 Website</p>
             </div>
             <div id="spotlight_2">
                 <h2>Code Primera</h2>
+                <img src="images/code_primera.png">
+              <p>An after school coding instructional program</p>
+              <p>contact@codeprimera.com</p>
+              <p>+999-9999-9999 | Website</p>
             </div>
             <div id="spotlight_3">
-                <h2>Build a Treefort</h2>
+                 <h2>Build a Treefort</h2>
+              <img src="images/treefort_logo.png">
+              <p>builda@treefort.com</p>
+              <p>+888-8988-8882 Website</p>
             </div>
         </div>
     </main>
     <footer>
         <p> 2022 &copy; Payson Chamber | Leo Harrison | WDD 230 Project</p> 
         <p>Last Modification: <span id="js_date"></span></p>
-        <a href="https://www.google.com/maps/place/Payson,+AZ+85541/@34.2444745,-111.3568817,13z/data=!3m1!4b1!4m5!3m4!1s0x872c10dd6a3e1a7d:0x8de0f8fc583ada2f!8m2!3d34.2308684!4d-111.3251355">Location Map</a>
+        <a href="https://www.google.com/maps/place/Payson,+AZ+85541/@34.2444745,-111.3568817,13z/data=!3m1!4b1!4m5!3m4!1s0x872c10dd6a3e1a7d:0x8de0f8fc583ada2f!8m2!3d34.2308684!4d-111.3251355"><span><span class="material-symbols-outlined">
+            location_on
+            </span></span>Location Map</a>
     </footer>
     <script src="js/date.js"></script>
     <script src="js/hamburger.js"></script>
