@@ -4,73 +4,40 @@ body {
     padding: 0;
     margin: 0;
 }
-    /*Section for the header */
+/*------------- Section for the header -------- */
 header {
-   display: flex;
-   align-items: center;
-   vertical-align: text-top;
-   justify-content: space-evenly;
-   padding: 10px;
-   background-color: #586f7c;
-   color: white;
-}
-
-#menu_title {
     display: flex;
-	flex-direction: column;
-    text-align: center;
+    align-items: center;
+    background-color: #586f7c;
 }
 
-#hamburger_menu {
-    padding: 25px;
+header img {
+    height: 50px;
+    width: 50px;
 }
 
-#hamburger_content {
+#menu_items {
     display: none;
-}
-
-#hamburger_list {
+    align-self: flex-end;
+    list-style-type: none;
     background-color: black;
     color: white;
     padding: 20px;
-    margin: 0px;
+    margin: auto;
+    width: auto;
+    text-align: center;
 }
 
-#hamburger_list a {
-    text-decoration: none;
-    color: white;
-}
-
-#hamburger_list a:visited {
-    text-decoration: none;
-    color: white;
-}
-
-#menu_title h1 {
-    margin: 0px;
-}
-
-#menu_title p {
-    /* padding: 0px; */
-    margin: 0px;
+#menu_items li {
+    padding: 20px 0px;
+    border-style: 0px 5px solid white;
 }
 
 
-.social_feed_class {
-    width: 25px;
-    height: 25px;
-    align-items: center;
-    /* padding: 2px; */
-}
-
-#hamburger_menu {
-    padding: 10px;
-    margin: 0px 10px;
-}
 
 img {
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 /*------------- Main Section -------------- */
 main div {
@@ -83,6 +50,10 @@ main div {
     padding: 20px;
     vertical-align: text-top;
     text-align: left;
+}
+
+#spotlights_section {
+    text-align: center;
 }
 
 /*------------- Footer Section------------- */
