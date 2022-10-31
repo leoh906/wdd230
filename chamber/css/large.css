@@ -173,3 +173,19 @@ color: white;
   }
 
 }
+
+/* ------------ Section for Discover Page ----------- */
+figure img {
+    height: 200px;
+    width:  200px;
+}
+
+figure img:hover {
+    transform: scale(1.25);
+}
+
+#discover_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
