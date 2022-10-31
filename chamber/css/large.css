@@ -171,9 +171,6 @@ color: white;
     'GRAD' 0,
     'opsz' 48
   }
-
-}
-
 /* ------------ Section for Discover Page ----------- */
 figure img {
     height: 200px;
@@ -189,3 +186,5 @@ figure img:hover {
     grid-template-columns: 1fr 1fr 1fr;
     
 }
+}
+
