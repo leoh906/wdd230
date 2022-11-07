@@ -185,5 +185,50 @@ figure img:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
 }
+
+/* ---------------------- Section for the Join Page ---------- */
+
+#join_page_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 }
+
+#form_area {
+    grid-column: 2/3;
+}
+
+#membership_info {
+grid-column: 4/6
+}
+
+#menu_items li {
+    display: inline;
+    padding: 10px;
+}
+
+form {
+    padding: 10px;   
+}
+
+
+
+#radio_sections {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#membership_info {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Code for the thankyou page */
+#thank_you_body {
+    text-align: center;
+}
+
+
+} /* Ending div for the media query
 

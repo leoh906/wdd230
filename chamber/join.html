@@ -5,10 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join Us</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
-    <form>
-        
+    <header>   
+        <img src="images/chamber_logo.png" alt="chamber_logo">
+        <h2>Payson Chamber of Commerce</h2>
+        <img src="images/facebook_icon.svg" alt="facebook logo">
+        <img src="images/linkedin_icon.svg" alt="linkedin logo">
+        <button id="hamburger_button">&#9776;</button>
+       </header>
+     </header>
+     <ul id="menu_items">
+        <li>Home</li>
+        <li>Discover</li>
+        <li>Directory</li>
+        <li>Join</li>
+        <li>Contact</li>
+    </ul>
+    <main id="join_page_main">
+    <div id="form_area">
+    <form method="POST" action="thankyou.html">
+        <div class="div_form_item">
+            <label for="first_name">First Name</label>
+            <input type="text" placeholder="name" id="first_name" name="first_name" required>
+        </div>
+        <div class="div_form_item">
+            <label for="last_name" >Last Name</label>
+            <input type="text" placeholder="name" id="last_name" name="last_name" required>
+        </div>
+        <div class="div_form_item">
+            <label for="business_position">Business Position</label>
+            <input type="text" id="business_position" name="business_position" placeholder="XYZ Company">
+        </div>
+        <div class="div_form_item">
+            <label for="email_input">Email Address</label>
+            <input type="email" name="email" id="email_input" placeholder="johndoe@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        </div>
+        <div class="div_form_item">
+            <label for="telephone_number">Telephone Number</label>
+            <input type="tel" name="telephone_number" id="telephone_number">
+        </div>
+        <div id="business_description">
+            <label for="business_description_output" name="business_description_label">Business Description</label>
+            <p>Write a short description of your company</p>
+            <input type="text" name="business_description_output" id="business_description_output">
+        </div>
+        <div id="radio_sections">
+            <div class="radio_button_sections">
+                <input type="radio" name="NP Membership" id="np_membership">
+                <label for="np_membership">NP Membership</label>
+            </div>
+            <div class="radio_button_sections">
+                <input type="radio" name="Bronze Membership" id="bronze_membership">
+                <label for="bronze_membership">Bronze Membership</label>
+            </div>
+            <div class="radio_button_sections">
+                <input type="radio" name="Silver Membership" id="silver_membership">
+                <label for="silver_membership">Silver Membership</label>
+            </div>
+            <div class="radio_button_sections">
+                <input type="radio" name="Gold Membership" id="gold_membership">
+                <label for="gold_membership">Gold Membership</label>
+            </div>
+            <input type="submit" value="Start Membership">
+        </div> <!-- End of div radio section --> 
     </form>
+    </div>
+    <div id="membership_info">
+        <h1>Membership Levels Benefits</h1>
+        <h2>NP Membership</h2>
+        <ul>
+          <li>For non profit organizations and there is no fee</li>
+          </ul>
+          <h2>Bronze Membership</h2>
+          <ul>
+            <li>15% discount on events</li>
+            <li>10% discount on advertising</li>
+            <li>Fee of $50/month</li>
+          </ul>
+          <h2>Silver Membership</h2>
+          <ul>
+            <li>25% discount on events</li>
+            <li>15% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>Fee of $100/month</li>
+          </ul>
+            <h2>Gold Membership</h2>
+          <ul>
+            <li>50% discount on events</li>
+            <li>50% discount on advertising</li>
+            <li>Free participation in the trade fair</li>
+            <li>5 free featured ads per year</li>
+            <li>1 free training per quarter</li>
+            <li>Fee of $250/month</li>
+          </ul>
+    </div> <!-- Ending Div for membership info-->
+</main>
+<footer>
+     <p> 2022 &copy; Payson Chamber | Leo Harrison | WDD 230 Project</p> 
+    <p>Last Modification: <span id="js_date"></span></p>
+    <a href="https://www.google.com/maps/place/Payson,+AZ+85541/@34.2444745,-111.3568817,13z/data=!3m1!4b1!4m5!3m4!1s0x872c10dd6a3e1a7d:0x8de0f8fc583ada2f!8m2!3d34.2308684!4d-111.3251355"><span>&#xf276;<span class="material-symbols-outlined">
+        location_on
+        </span></span>Location Map</a></footer>
+<script src="js/date.js"></script>
+<script src="js/hamburger.js"></script>
 </body>
 </html>

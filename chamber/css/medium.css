@@ -96,7 +96,7 @@ footer {
     background-color: #586f7c;
     color: white;
 }
-}
+
 
 /* ------------ Section for Discover Page ----------- */
 figure img {
@@ -113,3 +113,48 @@ figure img:hover {
     grid-template-columns: 1fr 1fr 1fr;
     
 }
+
+/* ---------------------- Section for the Join Page ---------- */
+
+#join_page_main {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+#menu_items li {
+    display: inline;
+    padding: 10px;
+}
+
+#business_description {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    padding: 0px;   
+}
+
+
+
+#radio_sections {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#membership_info {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Code for the thankyou page */
+body {
+    text-align: center;
+}
+
+
+
+} /*Ending for the Media Query*/
