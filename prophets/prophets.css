@@ -1,0 +1,61 @@
+/* 
+Color Palette to use:
+#b9b9cc - The grayish background color
+#4d4d96 - The bluish header color
+#2f3034 - The black text color 
+*/
+/* 
+body {
+    margin: 0 auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cards section {
+background-color: #b9b9cc;
+text-align: center;
+padding: 2px;
+margin: 2px;
+}
+
+.cards section image {
+    height: 75px;
+    width: 75px;
+}
+
+.cards h2 {
+    color: #4d4d96;
+    font-weight: bolder;
+}
+
+.cards p {
+    color: #2f3034;
+} */
+
+/* Sis. Anderson's CSS */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.cards section {
+    border: 1px solid navy;
+    background-color: lightblue;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+}
+h2, h1 {
+    color: navy;
+    text-align: center;
+}
+img {
+    width: 90%;
+    box-shadow: 5px 10px 8px 5px #888888;
+}
