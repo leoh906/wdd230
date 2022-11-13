@@ -67,8 +67,24 @@ color: white;
 
 /* --- Section for the Join Page ---- */
 
+/* --- Section for the Directory Page --- */
 
 
+.buttons {
+    margin: 25px;
 }
+.card_list {
+    display: block;
+    text-align: center;
+}
+
+#business_card {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    padding: 2px;
+}
+
+} /* End the media query */
 
 
