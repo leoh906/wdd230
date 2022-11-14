@@ -229,6 +229,26 @@ form {
     text-align: center;
 }
 
+/*Code for the directory page*/
+
+#directory_body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.business_lists {
+    display: flex;
+}
+
+.business_cards {
+    display: flex;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    /* padding: 0px 5px; */
+    margin: 5px;
+}
+
 
 } /* Ending div for the media query
 
