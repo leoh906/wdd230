@@ -155,6 +155,35 @@ body {
     text-align: center;
 }
 
+/* Code for the Directory Page */
+#directory_body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.business_lists {
+    display: flex;
+}
+
+.business_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    border-color: black;
+}
+
+.business_card {
+    border-style: solid;
+    margin: 5px 5px;
+}
+
+table {
+    border-style: solid;
+}
 
 
 } /*Ending for the Media Query*/

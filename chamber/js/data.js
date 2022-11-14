@@ -1,21 +1,13 @@
 /*Steps: */
 
     // 1. Create a fetch, to get data from a previously made JSON File 
-console.log('Hello World')
 
 getURL = 'https://leoh906.github.io/wdd230/chamber/data.json'
 
 // Creates a function to get the items of the JSON File  
 async function getItems(getURL) {
-    let generalListElement = document.querySelector('.business_cards')
-    let tableListElement = document.querySelector('.business_tables')
-    let divCard = document.createElement('div')
-    divCard.setAttribute('class','business_card')
-    let itemURL = document.createElement('a')
-    let itemImage = document.createElement('img')
-    let itemName = document.createElement('h1')
-    let itemAddress = document.createElement('p')
-    let itemTelephone = document.createElement('p')
+    let x = window.matchMedia("min-width: 729px && max-width: 1024px")
+    
     const response = await fetch(getURL);
     console.log(response);
     
@@ -32,8 +24,37 @@ if(response.ok) {
     // Create two event listeners for each button that was created
     let cardButton = document.getElementById('card_view_button')
     let tableButton = document.getElementById('list_view_button')
+    let generalListElement = document.querySelector('.business_cards')
+    let tableListElement = document.querySelector('.business_tables')
 
 // Fetch the json data to show on startup
+if(x.matches) {
+    businessDirectory.forEach(element => {
+        let tableElement = document.createElement('table')
+        let tableRow = document.createElement('tr')
+        let tableData = document.createElement('td')
+    
+
+        tableListElement.appendChild(tableElement)
+        tableElement.appendChild(tableData)
+
+        tableData.innerHTML = element.name + ' '  + element.address + ' ' + element.telephone + ' ' + element.URL; 
+    })
+
+        
+}
+
+else {
+    
+    let divCard = document.createElement('div')
+    divCard.setAttribute('class','business_card')
+    let itemURL = document.createElement('a')
+    let itemImage = document.createElement('img')
+    let itemName = document.createElement('h1')
+    let itemAddress = document.createElement('p')
+    let itemTelephone = document.createElement('p')
+
+
 businessDirectory.forEach(element => {
     let divCard = document.createElement('div')
     divCard.setAttribute('class','business_card')
@@ -61,6 +82,7 @@ businessDirectory.forEach(element => {
     itemURL.innerHTML = element.URL;
     
 }); 
+}
 
 
 
@@ -86,7 +108,7 @@ tableButton.addEventListener("click",showTables);
                 divCard.setAttribute('class','business_card')
                 let itemURL = document.createElement('a')
                 let itemImage = document.createElement('img')
-                let itemName = document.createElement('h1')
+                let itemName = document.createElement('h3')
                 let itemAddress = document.createElement('p')
                 let itemTelephone = document.createElement('p')
                
@@ -133,9 +155,12 @@ tableButton.addEventListener("click",showTables);
 
                 tableData.innerHTML = element.name + ' '  + element.address + ' ' + element.telephone + ' ' + element.URL;  
 
-                
-
             })
+
+              
+
+
+            
     
         }
     } // Ends the if(ok) thingy

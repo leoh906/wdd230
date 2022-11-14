@@ -83,12 +83,20 @@ color: white;
 
 .business_cards {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: white;
     border-color: black;
-    border-style: solid;
-    padding: 0px 5px;
 }
 
+.business_card {
+    border-style: solid;
+    margin: 5px 5px;
+}
+
+table {
+    border-style: solid;
+}
 
 
 
