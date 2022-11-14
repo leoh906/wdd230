@@ -8,6 +8,7 @@ getURL = 'https://leoh906.github.io/wdd230/chamber/data.json'
 // Creates a function to get the items of the JSON File  
 async function getItems(getURL) {
     let generalListElement = document.querySelector('.business_cards')
+    let tableListElement = document.querySelector('.business_tables')
     let divCard = document.createElement('div')
     divCard.setAttribute('class','business_card')
     let itemURL = document.createElement('a')
@@ -75,9 +76,7 @@ tableButton.addEventListener("click",showTables);
     // Create a function to display the businesses in card view
     function showCards() {
             console.log('This Function Works')
-            // generalListElement.classList.remove('business_lists')
-            // generalListElement.classList.add('business_cards')
-            let tableRow = querySelectorAll('.business_cards')
+            let tableRow = document.querySelectorAll('table')
             tableRow.forEach((item) => {
                 item.remove();
             })
@@ -109,64 +108,34 @@ tableButton.addEventListener("click",showTables);
                 itemURL.innerHTML = element.URL;
                 
             }); 
-
-            businessDirectory.forEach(element => {
-                
-            })
-            
-            
-         
-           
-
        
         }
 
-      
-
-
-
-
-
-
- 
-   
     
          // Create a function to display the businesses in table view
          function showTables() {
             console.log('This Function also works')
             // generalListElement.classList.remove('business_cards')
             // generalListElement.classList.add('business_lists')
-            let cardElements = document.querySelectorAll('.business_lists')
+            let cardElements = document.querySelectorAll('.business_card')
             cardElements.forEach((item) => {
                 item.remove();
             })
 
-
-
-
-          
-           
-
-            // businessDirectory.forEach(element => {
-
-
-            // })
-
+            businessDirectory.forEach(element => {
+                let tableElement = document.createElement('table')
+                let tableRow = document.createElement('tr')
+                let tableData = document.createElement('td')
             
+
+                tableListElement.appendChild(tableElement)
+                tableElement.appendChild(tableData)
+
+                tableData.innerHTML = element.name + ' '  + element.address + ' ' + element.telephone + ' ' + element.URL;  
+
                 
-          
 
-
-
-
-
-
-
-
-                       
-
-            
-            
+            })
     
         }
     } // Ends the if(ok) thingy
