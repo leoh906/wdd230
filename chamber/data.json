@@ -14,28 +14,28 @@
     "address": "703 W. Main St. Payson,AZ 85541",
     "telephone": "(928) 363-4011",
     "URL": "https://www.duzaskitchen.com/",
-    "img": "https://imgur.com/xj44IYA"
+    "img": "/business_images/duza_kitchen.png"
 },
 {
     "name": "Razor Thin Media",
     "address": "103 N Stag Pt. Payson,AZ 85541",
     "telephone": "(928)-978-5077",
     "URL": "https://www.razorthinmedia.com/",
-    "img":"https://imgur.com/0z55LxI"
+    "img":"business_images/razor_thin_media.jpg"
 },
 {
     "name": "Ground Game Flooring LLC",
     "address": "216 N Parkwood Rd Payson,AZ 85541",
     "telephone": "(928)-951-0977",
     "URL": "https://groundgameflooring.com/",
-    "img": "https://imgur.com/pQ491s2"
+    "img": "business_images/ground_game_flooring.jpg"
 },
 {
     "name": "Lowery Windows and Doors",
     "address": "107 W. Wade Ln. Payson,AZ 85541",
     "telephone": "(928)-468-0591",
     "URL": "https://www.loweryz.com/",
-    "img": "https://imgur.com/qv5ecHf"
+    "img": "business_images/lowery_windows.jpg"
 },
 {
     "name": "Mountain Home Interiors",
