@@ -42,49 +42,49 @@
     "address": "315 W. Main St. Payson,AZ 85541",
     "telephone": "(928)-474-4660",
     "URL": "https://www.mountaininteriors.net/",
-    "img": "https://imgur.com/O3bVUV0"
+    "img": "business_images/mountain_home_interior.png"
 },
 {
     "name": "Payson Pro Rodeo Commitee",
     "address": "P.O. Box 784 Payson,AZ 85547",
     "telephone": "(928)-295-8109",
     "URL": "https://www.paysonprorodeo.com",
-    "img": "https://imgur.com/d3vpwJ4"
+    "img": "business_images/payson_rodeo.jpg"
 },
 {
     "name": "Pizza Factory",
     "address": "238 E. Hwy 260 Payson,AZ",
     "telephone": "(928)-474-1895",
     "URL": "https://www.pizzafactory.com/payson/",
-    "img": "https://imgur.com/mWlNq8W"
+    "img": "business_images/pizza_factory.jpg"
 },
 {
     "name": "Payson Farmers Market",
     "address": "816 S. Beeline Hwy Payson,AZ 85541",
     "telephone": "(520)-237-6525",
     "URL": "https://www.paysonfarmersmarket.com/",
-    "img": "https://imgur.com/ABSl7k3" 
+    "img": "business_images/payson_farmers_market.png" 
 },
 {
     "name": "Danzeisen Creamery Store",
     "address": "500 S. Beeline Hwy. Payson,AZ 85541 Suite B",
     "telephone": "(928)-363-4100",
     "URL": "https://danzeisencreamerystores.com",
-    "img": "https://imgur.com/uMuivq6"
+    "img": "business_images/danzeisen_dairy.png"
 },
 {
     "name": "Dan Good Flooring",
     "address": "810 N.Beeline Hwy. Payson,AZ 85541",
     "telephone": "(928)-472-4597",
     "URL":"https://dangoodflooring.com/",
-    "img":"https://imgur.com/nemXIL3"
+    "img":"business_images/dan_good_flooring.jpg"
 },
 {
     "name": "Roud's Home Furnishings",
     "address": "107 E Highway 260 Payson,AZ 85541",
     "telephone": "(928)-474-3338",
     "URL":"https://www.roudshomefurnishings.com/index.html",
-    "img":"https://imgur.com/J6XA49T"
+    "img":"business_images/roud_furnishing.png"
 }
 
 
