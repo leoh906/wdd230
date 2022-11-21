@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <link rel="stylesheet" href="css/medium.css"> 
+    <link rel="stylesheet" href="css/large.css"> 
+    <link rel="stylesheet" href="css/main2.css">
+    <!-- <link rel="stylesheet" href="css/medium2.css"> -->
+    <!-- <link rel="stylesheet" href="css/large2.css"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body>
+<body id="index_body">
    <header>
-    <img src="images/chamber_logo.png" alt="chamber_logo">
-    <h2>Payson Chamber of Commerce</h2>
+    <img src="images/cover.png" alt="chamber_logo">
     <img src="images/facebook_icon.svg" alt="facebook logo">
     <img src="images/linkedin_icon.svg" alt="linkedin logo">
     <button id="hamburger_button">&#9776;</button>
@@ -33,13 +35,14 @@
         <div id="upcoming_events">
             <h2>Ribbon Cutting</h2>
             <ul>
-                <li><span class="material-symbols-outlined">diamond</span>The Diamond Shack</li>
+                <li>The Diamond Shack</li>
             </ul>
             <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00pm</p>
-                <button id="more_info">more info</button>
+                <a id="more_info" href="#">more info</a>
         </div>
         <div id="Weather">
-            <p><span id="temp"></span></p> 
+            <img src="images/weather-icon.svg" alt="Weather Icon">
+            <p><span id="temp"></span>&#176;F</p> 
             <p>Wind Speed: <span id="wind_speed_value"></span></p>
             <p>Wind Chill: <span id="wind_chill_value"></span></p>
         </div>
@@ -77,7 +80,7 @@
     <footer>
         <p> 2022 &copy; Payson Chamber | Leo Harrison | WDD 230 Project</p> 
         <p>Last Modification: <span id="js_date"></span></p>
-        <a href="https://www.google.com/maps/place/Payson,+AZ+85541/@34.2444745,-111.3568817,13z/data=!3m1!4b1!4m5!3m4!1s0x872c10dd6a3e1a7d:0x8de0f8fc583ada2f!8m2!3d34.2308684!4d-111.3251355"><span>&#xf276;<span class="material-symbols-outlined">
+        <a href="https://www.google.com/maps/place/Payson,+AZ+85541/@34.2444745,-111.3568817,13z/data=!3m1!4b1!4m5!3m4!1s0x872c10dd6a3e1a7d:0x8de0f8fc583ada2f!8m2!3d34.2308684!4d-111.3251355"><span>&#xf276;</span><span class="material-symbols-outlined">
             location_on
             </span></span>Location Map</a>
     </footer>

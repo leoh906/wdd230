@@ -1,0 +1,51 @@
+@media screen and (max-width: 729px) {
+  /* Section for index.html */
+  #index_body {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    background-color: #586f7c;
+  }
+  header img {
+    height: 50px;
+    width: 50px;
+  }
+  #menu_items {
+    display: none;
+    align-self: flex-end;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+  }
+  #upcoming_events li {
+    list-style-image: url("../images/diamond.svg");
+    list-style-position: inside;
+    border-style: solid white;
+  }
+  #upcoming_events #more_info {
+    text-decoration: none;
+  }
+  #upcoming_events #more_info:visited {
+    color: blue;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  footer {
+    text-align: center;
+    background-color: #586f7c;
+    padding: 10px;
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=main2.css.map */
