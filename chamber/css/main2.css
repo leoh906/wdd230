@@ -28,7 +28,7 @@
   #upcoming_events li {
     list-style-image: url("../images/diamond.svg");
     list-style-position: inside;
-    border-style: solid white;
+    border-style: solid;
   }
   #upcoming_events #more_info {
     text-decoration: none;
