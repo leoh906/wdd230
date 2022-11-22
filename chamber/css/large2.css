@@ -1,0 +1,97 @@
+@media screen and (min-width: 1024px) {
+  /* Code for index.html */
+  #index_body {
+    padding: 0;
+    margin: 0;
+  }
+  #index_body header {
+    display: flex;
+    align-items: center;
+    vertical-align: text-top;
+    justify-content: space-evenly;
+    background-color: #586f7c;
+    color: white;
+  }
+  #index_body header #hamburger_button {
+    display: none;
+  }
+  #index_body #menu_items {
+    display: block;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+  }
+  #index_body #main_content_index {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  #index_body #main_content_index #hero_banner {
+    grid-column: 2/2;
+    grid-row: 1/span 2;
+  }
+  #index_body #main_content_index #hero_banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  #index_body #main_content_index #hero_button {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 700px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  #index_body #main_content_index #upcoming_events {
+    display: flex;
+    flex-direction: column;
+    grid-column: 1/1;
+    grid-row: 1/1;
+  }
+  #index_body #main_content_index #upcoming_events ul {
+    list-style: none;
+  }
+  #index_body #main_content_index #weather_section {
+    grid-column: 1/1;
+    grid-row: 2/2;
+    display: block;
+  }
+  #index_body #main_content_index #news_release {
+    grid-column: 2/2;
+    grid-row: 3/3;
+    text-align: center;
+    display: block;
+  }
+  #index_body #main_content_index #join_us_section {
+    grid-column: 1/1;
+    grid-row: 3/3;
+    display: flex;
+    flex-direction: column;
+  }
+  #index_body #main_content_index #join_us_section button {
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  #index_body #main_content_index #spotlights_section {
+    grid-column: 3/3;
+    grid-row: 1/span 3;
+    display: flex;
+    flex-direction: column;
+  }
+  #index_body #main_content_index #spotlights_section .spotlight_item {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border-style: none;
+  }
+  /* Ending of code for index.html */
+}
+
+/*# sourceMappingURL=large2.css.map */

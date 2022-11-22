@@ -1,0 +1,133 @@
+@media screen and (min-width: 1024px) {
+
+/* Code for index.html */
+
+#index_body {
+    padding: 0;
+    margin: 0;
+
+    header {
+        display: flex;
+        align-items: center;
+        vertical-align: text-top;
+        justify-content: space-evenly;
+        background-color: #586f7c;
+        color: white;
+        #hamburger_button {
+            display: none;
+        }
+    
+     }
+
+     
+    #menu_items {
+        display: block;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    }
+    #main_content_index {
+        display:grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        // gap: 10px;
+
+        #hero_banner {
+        grid-column: 2/2;
+        grid-row: 1/ span 2;
+        
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover; 
+        }
+    } // Ending div for #hero_banner
+
+    #hero_button {
+        position: absolute;
+        margin-top: 650px;
+        margin-left: 700px;
+        background-color: greenyellow;
+        border-radius: 10px;
+        padding: 10px;
+
+    }
+
+
+
+        #upcoming_events {
+        display: flex;
+        flex-direction: column;
+        grid-column: 1/1;
+        grid-row: 1/1;
+
+        ul {
+            list-style:none;
+        }
+        } // End of Upcoming Events code block
+
+        #weather_section {
+        grid-column: 1/1;
+        grid-row: 2/2;
+        display: block;
+        }
+
+        #news_release {
+        grid-column: 2/2;
+        grid-row: 3/3;
+        text-align: center;
+        display: block;
+        }
+
+        #join_us_section {
+            grid-column: 1/1;
+            grid-row: 3/3;
+            display: flex;
+            flex-direction: column;
+
+            button {
+                background-color: greenyellow;
+                border-radius: 10px;
+                padding: 10px;
+
+            }
+        }
+
+        #spotlights_section {
+            grid-column: 3/3;
+            grid-row: 1/ span 3;
+            display: flex;
+            flex-direction: column;
+
+            .spotlight_item {
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+                border-style: none;
+            }
+
+          }
+
+
+        
+      
+    
+    } // End of main content index section
+
+
+
+} // End of the index body section
+/* Ending of code for index.html */
+
+
+
+
+
+
+}

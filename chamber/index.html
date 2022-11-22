@@ -7,10 +7,10 @@
     <title>Homepage</title>
     <!-- <link rel="stylesheet" href="css/main.css"> -->
     <link rel="stylesheet" href="css/medium.css"> 
-    <link rel="stylesheet" href="css/large.css"> 
+    <!-- <link rel="stylesheet" href="css/large.css">  -->
     <link rel="stylesheet" href="css/main2.css">
     <!-- <link rel="stylesheet" href="css/medium2.css"> -->
-    <!-- <link rel="stylesheet" href="css/large2.css"> -->
+    <link rel="stylesheet" href="css/large2.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 </head>
 <body id="index_body">
@@ -28,7 +28,7 @@
     <li>Contact</li>
 </ul>
         
-    <main>
+    <main id="main_content_index">
         <div id="hero_banner">
             <img src="images/wdd230-org.jpg" alt="Payson Main Street">
         </div>
@@ -40,7 +40,8 @@
             <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00pm</p>
                 <a id="more_info" href="#">more info</a>
         </div>
-        <div id="Weather">
+        <button id="hero_button">Join the Chamber!</button>
+        <div id="weather_section">
             <img src="images/weather-icon.svg" alt="Weather Icon">
             <p><span id="temp"></span>&#176;F</p> 
             <p>Wind Speed: <span id="wind_speed_value"></span></p>
@@ -55,21 +56,21 @@
             <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
           </div>
         <div id="spotlights_section">
-            <div id="spotlight_1">
+            <div class="spotlight_item">
             <h2>Thankful Transport</h2>
             <img src="images/moving_company.png" alt="Moving Company Logo">
             <p>"We get it there for you!"
             <p>hello@thankfultransport.com</p>
             <p>+999-9999-9999 Website</p>
             </div>
-            <div id="spotlight_2">
+            <div class="spotlight_item">
                 <h2>Code Primera</h2>
                 <img src="images/code_primera.png" alt="Code Primera Logo">
               <p>An after school coding instructional program</p>
               <p>contact@codeprimera.com</p>
               <p>+999-9999-9999 | Website</p>
             </div>
-            <div id="spotlight_3">
+            <div class="spotlight_item">
                  <h2>Build a Treefort</h2>
               <img src="images/treefort_logo.png" alt="Treefort Logo">
               <p>builda@treefort.com</p>
