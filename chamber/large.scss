@@ -21,7 +21,7 @@
 
      
     #menu_items {
-        display: block;
+    display: block;
     flex-direction: row;
     list-style-type: none;
     background-color: black;
@@ -30,6 +30,16 @@
     margin: auto;
     width: auto;
     text-align: center;
+
+    a {
+        text-decoration: none;
+        padding: 10px;
+        &:visited {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
     }
     #main_content_index {
         display:grid;

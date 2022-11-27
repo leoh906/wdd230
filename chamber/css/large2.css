@@ -26,6 +26,14 @@
     width: auto;
     text-align: center;
   }
+  #index_body #menu_items a {
+    text-decoration: none;
+    padding: 10px;
+  }
+  #index_body #menu_items a:visited {
+    color: white;
+    text-decoration: none;
+  }
   #index_body #main_content_index {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
