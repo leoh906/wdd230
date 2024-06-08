@@ -1,11 +1,11 @@
 {
     "companies":[
-        {
-            "name": "Anderson Dental Group",
-            "address": "712 N. Beeline Hwy. Payson, AZ 85541",
-            "telephone": "928-474-4581",
-            "URL": "https://andersondentalonline.com/",
-            "img": "/business_images/anderson_dental_group.png"
+{
+    "name": "Anderson Dental Group",
+    "address": "712 N. Beeline Hwy. Payson, AZ 85541",
+    "telephone": "928-474-4581",
+    "URL": "https://andersondentalonline.com/",
+    "img": "business_images/anderson_dental_group.png"
      
 },
 
@@ -14,7 +14,7 @@
     "address": "703 W. Main St. Payson,AZ 85541",
     "telephone": "(928) 363-4011",
     "URL": "https://www.duzaskitchen.com/",
-    "img": "/business_images/duza_kitchen.png"
+    "img": "business_images/duza_kitchen.png"
 },
 {
     "name": "Razor Thin Media",
