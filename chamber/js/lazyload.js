@@ -38,35 +38,18 @@
 //   }
   
 
+// Select all images with data-src attribute
 let imagesToLoad = document.querySelectorAll("img[data-src]");
 
-let imgOptions = {
-    threshold: 0.1,
-    rootMargin: "0px 0px 50px 0px"
-};
-
+// Function to load images by setting the src attribute
 const loadImages = (image) => {
     image.setAttribute("src", image.getAttribute("data-src"));
     image.onload = () => {
-        image.removeAttribute("data-src");
+        image.removeAttribute("data-src"); // Remove data-src after loading
     };
 };
 
-if ("IntersectionObserver" in window) {
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-                loadImages(entry.target);
-                observer.unobserve(entry.target);
-            }
-        });
-    }, imgOptions);
-
-    imagesToLoad.forEach((img) => {
-        observer.observe(img);
-    });
-} else {
-    imagesToLoad.forEach((img) => {
-        loadImages(img);
-    });
-}
+// Load all images immediately
+imagesToLoad.forEach((img) => {
+    loadImages(img);
+});
